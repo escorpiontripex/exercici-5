@@ -1,0 +1,7 @@
+name: compile-test-linux
+
+on: [make]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest

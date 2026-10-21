@@ -1,0 +1,7 @@
+name: compile-test-mac
+
+on: [make]
+
+jobs:
+  test:
+    runs-on: macOS
